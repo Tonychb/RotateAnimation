@@ -2,6 +2,7 @@
 按钮沿着圆形的轨迹移动动画效果
 
 使用说明:
+     
     //首先，实例化动画视图，设置视图尺寸位置和视图里的旋转按钮的宽高。
     RotateAnimationView *rotateAnimationView = [RotateAnimationView rotateAnimationViewWithFrame:self.view.bounds rotateItemSize:CGSizeMake(60, 60)];
     
