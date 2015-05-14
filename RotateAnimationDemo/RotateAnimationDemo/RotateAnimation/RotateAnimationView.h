@@ -34,10 +34,19 @@
 @property (nonatomic,strong) UIColor *animationViewBackgroundColor;
 
 
+/**
+ *  旋转按钮的文字数组
+ */
 @property (nonatomic,strong) NSArray *rotateItemTitles;
 
+/**
+ *  旋转按钮的文字颜色
+ */
 @property (nonatomic,strong) UIColor *rotateItemTitleColor;
 
+/**
+ *  旋转按钮的图片数组
+ */
 @property (nonatomic,strong) NSArray *rotateItemImages;
 
 /**
