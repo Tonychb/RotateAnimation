@@ -22,7 +22,5 @@
     //最后，创建围绕圆形路径移动动画,设置是否顺时针方向绘制，设置按钮的个数(1至6的范围)
     [rotateAnimationView creatingSurroundAnimationWithClockwise:NO rotateItemCount:6];
 
-#pragma mark - RotateAnimationViewDelegate(处理各个按钮的点击事件)
-- (void)rotateAnimationViewWithRotateItem:(RotateItem *)rotateItem index:(NSInteger)index {
-    NSLog(@"第%ld个按钮点击了",(long)index);
-}
+    //代理方法：处理各个按钮的点击事件)
+    - (void)rotateAnimationViewWithRotateItem:(RotateItem *)rotateItem index:(NSInteger)index;
